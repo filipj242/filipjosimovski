@@ -1,0 +1,114 @@
+@media screen and (max-width:769px) {
+     #logo h1 a {
+        font-size: 26px;
+    }
+    header nav ul li a, .blokovi p, span, .cigle p, .kocke p, .senka p,#levi p, footer nav .veze ul li a i, .veze p {
+        font-size: 13px;
+    }
+   
+    #naslov h2{
+        font-size: 30px;
+    }
+    #naslov p{
+        font-size: 22px;
+    }
+    .blok{
+        height: 400px;
+    }
+    #naslov{
+        left: 70px;
+        top: 150px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .blokovi h4, .kocke h4{
+        font-size: 16px;
+    }
+    .cigle i{
+        font-size: 50px;
+    }
+    .cigle span{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:670px){
+    .blokovi{
+        width: 40%;
+        margin: 10px auto;
+    }
+    .cigle{
+        width: 45%;
+    }
+}
+@media screen and (max-width:461px) {
+    #logo{
+        justify-content: center;
+    }
+    #logo h1 a, h3 {
+        font-size: 20px;
+    }
+    header nav ul li a, .blokovi p, span, .cigle p, .kocke p, input, textarea,#levi p {
+        font-size: 12px;
+    }
+    #centar-header{
+        flex-direction: column;
+    }
+    header nav{
+        margin-top: 5px;
+    }
+    header nav ul{
+        justify-content: center;
+    }
+    #naslov h2{
+        font-size: 25px;
+    }
+    #naslov p{
+        font-size: 17px;
+    }
+    #naslov{
+        left: 50px;
+        top: 150px;
+    }
+    .blokovi{
+        width: 60%;
+        margin: 10px auto;
+    }
+    .cigle{
+        width: 40%;
+    }
+    .kocke{
+        width: 60%;
+        margin: 25px auto;
+    }
+    footer nav .veze ul li a i, .veze p{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:361px) {
+    #logo h1 a, h3 {
+        font-size: 17px;
+    }
+    header nav ul li a, .blokovi p, span, .cigle p, .kocke p,input, textarea, #levi p {
+        font-size: 10px;
+    }
+    header nav ul li{
+        margin:0px 5px;
+    }
+    #naslov h2{
+        font-size: 20px;
+    }
+    #naslov p{
+        font-size: 15px;
+    }  
+    .blokovi h4, .cigle span, .kocke h4{
+        font-size: 13px;
+    }
+    .cigle{
+        width: 60%;
+        margin: 0px auto;
+    }
+    footer nav{
+        width: 100%;
+    }
+}
